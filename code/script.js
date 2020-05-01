@@ -72,8 +72,7 @@ fetch("https://api.openweathermap.org/data/2.5/forecast?q=karlstad,SWE&units=met
       );
   }
  
-// this week's forecast
-
+ // This week's forecast
   const today = new Date();
   const todaysDate = `${today.getFullYear()}-${('0' + (today.getMonth()+1)).slice(-2)}-${('0' + today.getDate()).slice(-2)}`;
   
